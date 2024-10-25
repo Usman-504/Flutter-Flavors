@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
           child: child ?? const SizedBox(),
         );
      },
-
       home: HomeScreen(title: FlavorConfig.instance.values.appName),
     );
   }
