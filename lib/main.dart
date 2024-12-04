@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: FlavorConfig.instance.values.appName,
       builder: (_, child) {
         return FlavorBanner(
